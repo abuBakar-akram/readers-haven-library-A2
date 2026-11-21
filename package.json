@@ -1,0 +1,17 @@
+{
+  "name": "readers_heaven_library",
+  "version": "1.0.0",
+  "description": "node_modules\r dist\r .parcel-cache\r .git\r .gitignore\r Dockerfile\r README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/*.html --dist-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
