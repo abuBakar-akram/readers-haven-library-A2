@@ -7,3 +7,23 @@
 body {
     font-family: Arial, sans-serif;
 }
+.services-hero {
+  margin: 24px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.service-card {
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.service-card h3 {
+  margin-top: 0;
+}
