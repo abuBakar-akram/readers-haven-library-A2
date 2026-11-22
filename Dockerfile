@@ -20,7 +20,8 @@ RUN npm ci
 COPY src/ ./src/
 
 # Copy the shared CSS stylesheet
-COPY styles/ ./styles/
+
+COPY style/ ./style/
 
 # Build all HTML pages into the dist directory
 RUN npm run build
